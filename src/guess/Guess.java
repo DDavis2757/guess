@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author More to come.
+ * @author More to come. hahah
  */
 public class Guess {
 
