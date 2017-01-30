@@ -28,8 +28,11 @@ public class Guess {
             System.out.println("Enter a number: ");
             if (sc.nextInt() == number) {
                 break;
-            } else {
-                System.out.println("Sorry, try again");
+            } else if(sc.nextInt() < number) {
+                System.out.println("Sorry, you guessed low.");
+            }
+            else if(sc.nextInt() > number){
+                System.out.println("Sorry, you guessed high.");
             }
 
         }
