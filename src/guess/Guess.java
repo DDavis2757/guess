@@ -20,7 +20,7 @@ public class Guess {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
-        int number = rand.nextInt(9)+1;
+        int number = rand.nextInt(10)+1;
 
         System.out.println("Guess a number between 1 and 10");
        
