@@ -20,22 +20,25 @@ public class Guess {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
-        int number = rand.nextInt(10);
+        int number = rand.nextInt(9)+1;
 
         System.out.println("Guess a number between 1 and 10");
-
+       
+        
         while (true) {
             System.out.println("Enter a number: ");
-            if (sc.nextInt() == number) {
+            int guess=sc.nextInt();
+            if (guess == number) {
                 break;
-            } else if(sc.nextInt() < number) {
-                System.out.println("Sorry, you guessed low.");
-            }
-            else if(sc.nextInt() > number){
+            } else if(guess >= number) {
                 System.out.println("Sorry, you guessed high.");
+            }
+            else {
+                System.out.println("Sorry, you guessed low.");
             }
 
         }
         System.out.println("You win!");
     }
 }
+
