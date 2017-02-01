@@ -11,6 +11,7 @@ import java.util.Scanner;
 /**
  *
  * @author Dillon Davis
+ * This line was done in github.
  */
 public class Guess {
 
