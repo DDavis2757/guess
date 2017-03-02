@@ -11,13 +11,9 @@ import java.util.Scanner;
 /**
  *
  * @author Dillon Davis
- * This line was done in github.
+ * Small guessing game through a while loop.
  */
 public class Guess {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
